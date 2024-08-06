@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav
+{
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+
+ul,h1,li
+{
+    display: inline;
+}
+
+ul
+{
+    margin-left: 71%;
+    cursor: pointer;
+}
+li{
+    color: grey;
+}
+
+li:hover{
+    color: white;
+}
+
+input{
+    width: 60%;
+    padding: 15px;
+}
+.searchbar
+{
+    text-align: center;
+    margin: 3%;
+
+}
+img{
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+}
+.box{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+    margin: 70px;
+    display: inline-block;
+}
+a:hover{
+    color: grey;
+}
+.box:hover{
+    background-color: black;
+    color: white;
+}
+.buynow{
+    background-color: black;
+    color: antiquewhite;
+    border-width: 2px ;
+    width: 100px;
+    cursor: pointer;
+}
+.products{
+    text-align: center;
+}
+.About{
+    background-color: rgb(7, 6, 6);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.About:hover{
+    color: antiquewhite;
+}
+.Contact:hover{
+    color: antiquewhite;
+}
+.Contact{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
